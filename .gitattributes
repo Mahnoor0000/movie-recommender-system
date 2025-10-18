@@ -1,0 +1,9 @@
+*.ipynb linguist-language=Jupyter Notebook
+*.py text
+*.csv text
+*.md text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.zip binary
+*.exe binary
+
