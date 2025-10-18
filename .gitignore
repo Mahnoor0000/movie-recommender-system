@@ -1,0 +1,23 @@
+
+# Python & Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Data & Models
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore big stuff, but keep .csv
+push origin main.csv
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
