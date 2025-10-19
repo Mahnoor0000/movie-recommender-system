@@ -12,20 +12,6 @@ The recommender uses **cosine similarity** between vectorized movie features to 
 
 ---
 
-##  Technologies Used
-
-| Category | Library / Tool | Purpose |
-|-----------|----------------|----------|
-| **Data Handling** | `pandas`, `numpy` | Cleaning, merging, and preprocessing TMDB datasets |
-| **Natural Language Processing** | `nltk`, `PorterStemmer` | Text normalization and word stemming for better feature matching |
-| **Feature Extraction** | `scikit-learn` (`CountVectorizer`) | Convert movie metadata into numerical vectors using Bag-of-Words |
-| **Similarity Calculation** | `cosine_similarity` from `sklearn` | Compute pairwise similarity scores between movies |
-| **Serialization** | `pickle` | Save preprocessed data (`movies.pkl`, `movie_dict.pkl`, `similarity.pkl`) |
-| **Web Interface** | `Streamlit` | Build an interactive user interface for movie recommendations |
-| **Deployment** | `Procfile`, `requirements.txt`, `setup.sh` | Enable hosting on platforms like Render or Streamlit Cloud |
-
----
-
 ##  How It Works
 
 1. **Data Merging & Cleaning**  
